@@ -2,9 +2,10 @@
 
 #### Link-uri utile
 [Ninety-Nine Prolog Problems](https://www.ic.unicamp.br/~meidanis/courses/mc336/problemas-prolog/)
+
 [Arithmetic and lists in Prolog](https://faculty.nps.edu/ncrowe/book/chap5.html)
 
-# Prolog Theory Summary
+# Teorie folositoare
 
 - Variabilele incep cu litera MARE sau cu _ +litera mica
 - Atomii sunt cu litera MICA sau intre ' '
