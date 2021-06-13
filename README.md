@@ -49,7 +49,8 @@ Prolog pune intrebari si intoarce raspunsuri de tipul true/false. Daca predicate
 ### Operatori
 
 - Operatorul = compara termenii(expresiile), nu valorile si cauta un unificator
-```?- 3+5 = 5+3.
+```
+   ?- 3+5 = 5+3.
       false
    ?- 3+5 = 8. 
       false
@@ -62,7 +63,8 @@ Prolog pune intrebari si intoarce raspunsuri de tipul true/false. Daca predicate
 - Restul impartirii: operatorul mod
 - Inmultire: * 
 - Ridicare la putere: ** 
-```?- 3+5 is 8.
+```
+   ?- 3+5 is 8.
       true
    ?- X is 3+5.
       X = 8
