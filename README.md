@@ -43,6 +43,7 @@ Prolog pune intrebari si intoarce raspunsuri de tipul true/false. Daca predicate
 ### Comentarii
 
 % pe o singura linie 
+
 /* pe mai multe linii */
 
 ### Operatori
