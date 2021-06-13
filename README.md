@@ -16,11 +16,15 @@
 - Incarcare fisier ['C:/Users/Lenovo/Desktop/Prolog/kb1.pl']. sau doar [nume_fisier].
 - Constantele sunt atomi/numere
 - Termenii compusi (PREDICATE) sunt formati dintr-un atom si mai multi termeni: nume_atom(t1, t2,..)
+
   :warning: NU se pune spatiu intre numele atomului si paranteza :warning:
+  
 - Aritatea este numarul de termeni si se noteaza: nume_atom/nr_termeni
 - Regula(afirmatia) este de forma HEAD :- BODY
 - Faptul este o regula fara body
+
   :warning: Faptele si regulile se grupeaza mereu dupa numele atomilor :warning:
+ 
 - La recursivitate conditia de oprire trebuie sa fie mereu prima
   
 ### Ce returneaza?
