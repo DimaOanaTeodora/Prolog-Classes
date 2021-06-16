@@ -96,8 +96,8 @@ Prolog pune intrebari si intoarce raspunsuri de tipul true/false. Daca predicate
  ```
 - Un predicat care concateneaza doua liste:
  ```
-concat_lists([], L, L).
-concat_lists([X | L1], L2, [X | L3]) :- concat_lists(L1, L2, L3).
+  concat_lists([], L, L).
+  concat_lists([X | L1], L2, [X | L3]) :- concat_lists(L1, L2, L3).
  ```
 - Predicatele predefinite:
   - length(lista, lungime_lista)
