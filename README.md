@@ -117,5 +117,6 @@ Prolog pune intrebari si intoarce raspunsuri de tipul true/false. Daca predicate
   - last(lista, argument) => true daca argument este ultimul in lista
   - reverse(lista, lista oglindita)
 
-#Solutii si rezolvari 
+# Solutii si rezolvari 
+solutii si rezolvari
 
