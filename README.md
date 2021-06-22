@@ -7,6 +7,8 @@
 
 [Modele de examen Prolog](https://drive.google.com/drive/folders/1c2Li1PU1xak6993LknH6oQkThiCiLNK9?fbclid=IwAR3ouvZHxrnJtRuCzbSM1-yWcgQ9YAxM3XLQFghMv8NObWT5siTYIMxtk3A)
 
+# [Solutii si rezolvari](# Solutii si rezolvari) 
+
 ## Laboratoare Prolog
 
 * [Lab 1](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/Prolog1.pdf)
@@ -114,3 +116,5 @@ Prolog pune intrebari si intoarce raspunsuri de tipul true/false. Daca predicate
   - append(l1, l2, l3=l1+l2),
   - last(lista, argument) => true daca argument este ultimul in lista
   - reverse(lista, lista oglindita)
+
+# Solutii si rezolvari 
