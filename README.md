@@ -7,7 +7,7 @@
 
 [Modele de examen Prolog](https://drive.google.com/drive/folders/1c2Li1PU1xak6993LknH6oQkThiCiLNK9?fbclid=IwAR3ouvZHxrnJtRuCzbSM1-yWcgQ9YAxM3XLQFghMv8NObWT5siTYIMxtk3A)
 
-[Solutii si rezolvari](#Solutii si rezolvari) 
+# [Solutii si rezolvari](#Solutii-si-rezolvari) 
 
 ## Laboratoare Prolog
 
@@ -118,3 +118,4 @@ Prolog pune intrebari si intoarce raspunsuri de tipul true/false. Daca predicate
   - reverse(lista, lista oglindita)
 
 # Solutii si rezolvari 
+#Solutii-si-rezolvari
