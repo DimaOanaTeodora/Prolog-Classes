@@ -1,3 +1,5 @@
+/* Folositi predicatele male/1, female/1 si parent of/2 pentru a
+reprezenta urmatorul arbore genealogic ca baza de cunostinte in Prolog.*/
 %---------------------------------
 % Jon Snow and Daenerys Targaryen
 %---------------------------------
@@ -87,8 +89,7 @@ aunt_of(Aunt,Person) :- female(Aunt), parent_of(Parent, Person), sister_of(Aunt,
 uncle_of(Uncle,Person) :- male(Uncle), parent_of(Parent, Person), brother_of(Uncle, Parent).
 
 /*--------- Recursivitate --------------
-clauza de oprire trebuie sa fie prima 
-Nu pune spatii intre numele predicatului si parametrii
+Clauza de oprire trebuie sa fie prima 
 */
 
 ancestor_of(Ancestor, Parent) :- parent_of(Ancestor, Parent).
@@ -101,10 +102,7 @@ not_parent(X,Y) :- \+ parent_of(X,Y).
 not_parent(X,Y) :- parent_of(X, _ ), \+ parent_of(X,Y)
 not parent(X,jonSnow).=> ne da valorile lui X*/
 
-/* asta da si valorile pt X si Y 
-not_parent(X,Y) :- parent_of(Y, _ ), parent_of(X, _ ), \+ parent_of(X,Y).
-*/
+/* asta da si valorile pt X si Y */
 
 person(X) :- female(X) ; male(X).
 not_parent(X,Y) :- person(X), person(Y), \+ parent_of(X,Y).
-
