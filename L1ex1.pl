@@ -1,3 +1,6 @@
+/*Definiti predicatul sits_right_of/2 pentru a reprezenta cine langa cine sta. 
+sits_right_of(X,Y) trebuie sa fie adevarat daca X este la dreapta lui Y.*/
+
 sits_right_of(cersei,tywin).
 sits_right_of(janos,cersei).
 sits_right_of(tyrion,janos).
