@@ -117,14 +117,28 @@ Prolog pune intrebari si intoarce raspunsuri de tipul true/false. Daca predicate
   - append(l1, l2, l3=l1+l2),
   - last(lista, argument) => true daca argument este ultimul in lista
   - reverse(lista, lista oglindita)
-
+  - write/1 (afiseaza un string primit intre '')
+  - nl/0 (trece la randul urmator la afisare)
+  ```?- write('Hello World!'), nl.
+        Hello World!
+        true
+  ```
+  - 
 # Cuprins
 
 * Laborator 1
 
-  - [Ex1 - vecinii de la o masa](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L1ex1.pl)
-  - [Ex2 - arborele genealogic](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L1ex2.pl)
+  - [Ex 1 - vecinii de la o masa](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L1ex1.pl)
+  - [Ex 2,3,4 - arborele genealogic, recursivitate, \+](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L1ex2.pl)
+  - [Ex 5 - ghicitoare simpla](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L1ex3.pl)
+  
 * Laborator 2
+  - [Ex 1 - distanta dintre 2 puncte](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L2ex1.pl)
+  - [Ex 2 - al n-lea nr al sirului lui Fibonaci, recursivitate, 2 moduri de scriere](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L2ex2.pl)
+  ``` TIP1: is asteapta expresie aritmetica (de aceea se foloseste cand vreau sa am o variabila noua cu o noua valoare)
+      TIP2: tot ce e dupa apelul recrusiv se executa la final, in ordine inversa
+  ```
+  - [Ex 3 - matrice patratica de caractere, write, nl](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L2ex3.pl)
 * Laborator 3
 * Laborator 4
 
