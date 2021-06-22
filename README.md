@@ -129,7 +129,7 @@ Prolog pune intrebari si intoarce raspunsuri de tipul true/false. Daca predicate
 * Laborator 1
 
   - [Ex 1 - vecinii de la o masa](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L1ex1.pl)
-  - [Ex 2,3,4 - arborele genealogic, recursivitate, \+](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L1ex2.pl)
+  - [Ex 2,3,4 - arborele genealogic, recursivitate, ```\+```](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L1ex2.pl)
   - [Ex 5 - ghicitoare simpla](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L1ex3.pl)
   
 * Laborator 2
