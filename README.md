@@ -47,7 +47,8 @@ Prolog pune intrebari si intoarce raspunsuri de tipul true/false. Daca predicate
 - , inseamna SI
 - ; inseamna SAU
 - :- inseamna IMPLICATIE (un fel de "daca")
-- \+ este negatia unui predicat 
+- \+ este negatia unui predicat (imi da si variabilele instantiate)
+- not doar imi neaga raspunsul, dar nu-mi da variabilele instantiate
 - fail/0 predicat care esueaza mereu
 - ! este un predicat predefinit care opreste mecanismul de backtracking
 
@@ -118,4 +119,12 @@ Prolog pune intrebari si intoarce raspunsuri de tipul true/false. Daca predicate
   - reverse(lista, lista oglindita)
 
 # Cuprins
+
+* Laborator 1
+
+  - [Ex1 - vecinii de la o masa](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L1ex1.pl)
+  - [Ex2 - arborele genealogic](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L1ex2.pl)
+* Laborator 2
+* Laborator 3
+* Laborator 4
 
