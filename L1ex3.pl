@@ -1,14 +1,16 @@
+/*
+Vom descrie acesta problema in Prolog, facand urmatoarele presupuneri:
+- daca mercenarul este un om religios, atunci nu va ucide preotul,
+- daca mercenarul este un om care respecta autoritatea, atunci nu va
+ucide regele,
+- daca mercenarul este un om care doreste bani, atunci nu va ucide omul
+bogat.
 
-/** GOT riddle 
-Varys - "Power is a curious thing, my lord. Are you fond of riddles?" 
-Tyrion - "Why? Am I about to hear one?" 
-Varys - "Three great men sit in a room, a king, a priest and the rich man. 
-         Between them stands a common sellsword. 
-         Each great man bids the sellsword kill the other two. 
-         Who lives? Who dies?" 
-Tyrion - "Depends on the sellsword" 
+is_killed(C,X,Y) verifica faptul ca X si Y sunt ucisi de alegerea C a mercenarului.
+?- is killed(god, X,Y).
+X = king,
+Y = richMan
 */
-
 
 char(king).
 char(priest).
@@ -21,10 +23,3 @@ choice(money, rich).
 
 /* X si Y sunt ucisi de C*/
 is_killed(C, X, Y) :- char(X), char(Y), X \= Y, choice(C, Z), X \= Z, Y \= Z.
-
-
-
-
-
-
-
