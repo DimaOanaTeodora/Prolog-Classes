@@ -77,8 +77,8 @@ Prolog pune intrebari si intoarce raspunsuri de tipul true/false. Daca predicate
       true
    ?- X is 3+5.
       X = 8
-   ?- X = 4, 4 is 3+X.
-      true
+   ?- X = 1, 4 is 3+X.
+      X = 1
    ?- 8 > 3.
       true
    ?- 8 =\= 3.
