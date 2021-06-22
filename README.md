@@ -118,4 +118,4 @@ Prolog pune intrebari si intoarce raspunsuri de tipul true/false. Daca predicate
   - reverse(lista, lista oglindita)
 
 # Solutii si rezolvari 
-#Solutii-si-rezolvari
+
