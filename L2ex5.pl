@@ -9,7 +9,10 @@ ar trebui sa obtineti Result = [6,21,12].
 */
 
 scalarMult(_, [], []).
-scalarMult(N, [H|T], R) :- X is N * H, scalarMult(N, T, Rn), append(Rn, [X], R).
+scalarMult(N, [H|T], R) :- 
+      X is N * H,
+      scalarMult(N, T, Rn), % ----- recursia -----
+      append(Rn, [X], R).
 
 /*
 B) Scrieti un predicat dot/3 al carui prim argument este o lista de
@@ -21,15 +24,22 @@ ar trebui sa obtineti Result = 32.
 */
 
 dot([], [], 0).
-dot([H1|T1], [H2|T2], R) :- X1 is H1 * H2, dot(T1, T2, Rn), R is Rn + X1.
+dot([H1|T1], [H2|T2], R) :- 
+      X1 is H1 * H2,
+      dot(T1, T2, Rn), %-------- Recursia -------
+      R is Rn + X1.
 
 /*
 C) Scrieti un predicat max/2 care cauta elementul maxim intr-o lista de
 numere naturale.
 De exemplu, la intrebarea
 ?-max([4,2,6,8,1],Result).
-ar trebui sa obtineti Result = 8.
+ar trebui sa obtineti Result = 8.
 */
 max([X],X).
-max([X|L],X) :- max(L,R), X > R.
-max([X|L],R) :- max(L,R), X =< R.
+max([X|L],X) :- 
+      max(L,R),
+      X > R.
+max([X|L],R) :- 
+      max(L,R),
+      X =< R.
