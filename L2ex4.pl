@@ -10,9 +10,9 @@ all_a([a|L]) :- all_a(L).
 lista de b-uri. trans_a_b(X,Y) trebuie sa fie adevarat daca "intrarea" X
 este o lista de a-uri si "iesirea" Y este o lista de b-uri, iar cele doua liste
 au lungimi egale.
-?- trans_a_b([a,a,a],L).
-?- trans_a_b([a,a,a],[b]).
-?- trans_a_b(L,[b,b]).
+?- trans_a_b([a,a,a],L). L=[b,b,b].
+?- trans_a_b([a,a,a],[b]). false.
+?- trans_a_b(L,[b,b]). L =[a,a]
 */
 trans_a_b([], []).
 trans_a_b([a], [b]).
