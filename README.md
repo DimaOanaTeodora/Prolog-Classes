@@ -103,7 +103,8 @@ Prolog pune intrebari si intoarce raspunsuri de tipul true/false. Daca predicate
 ### Functii pentru prelucrarea listelor
 
 - Un predicat care verifica daca o lista contine un anumit termen:
- ```element_of(X,[X | _]).
+ ```
+    element_of(X,[X | _]).
     element_of(X,[_ | T]) :- element_of(X,T).
  ```
 - Un predicat care concateneaza doua liste:
@@ -141,6 +142,19 @@ Prolog pune intrebari si intoarce raspunsuri de tipul true/false. Daca predicate
       TIP2: tot ce e dupa apelul recrusiv se executa la final, in ordine inversa
   ```
   - [Ex 3 - matrice patratica de caractere, write, nl](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L2ex3.pl)
+  - [Ex 4 - verificare lista, transformare lista](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L2ex4.pl)
+  ```
+    ?- [quod, licet, jovi, non, licet, bovi] = [ _, X | _ ].
+    X = licet
+  ```
+  - [Ex 5 - inmultire scalar-vector, vector-vector, maxim pe vector](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L2ex5.pl)
+  - [Ex 6 - my reverse pen vector, verificare palindrom](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L2ex6.pl)
+  - [Ex 7 - eliminare duplicate din vector](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L2ex7.pl)
+ 
 * Laborator 3
-* Laborator 4
+  - [Ex 1 - verificare corectitudine program](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L3ex1.pl)
+  ```
+    TIP: verificare daca o variabila este un atom : atom(X)
+  ```
+  - [Ex 2 - program complet SIMPLE](https://github.com/DimaOanaTeodora/Prolog-Classes/blob/main/L3ex2.pl)
 
